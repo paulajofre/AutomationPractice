@@ -17,7 +17,7 @@ public class ContactForm {
         this.driver.get("http://automationpractice.com/");
     }
 
-    public boolean AssertTitle(String ExpectedTitle){
+    public boolean GetTitle(String ExpectedTitle){
         String ActualTitle = driver.getTitle();
         boolean TextMatch = ActualTitle.equals(ExpectedTitle);
         Assert.assertTrue(TextMatch, "Title is incorrect.");
@@ -25,7 +25,7 @@ public class ContactForm {
         return true;
     }
 
-    public boolean AssertText(String ExpectedText, String TextXpath){
+    public boolean GetText(String ExpectedText, String TextXpath){
         String ActualText = driver.findElement(By.xpath(TextXpath)).getText();
         boolean TextMatch = ActualText.equals(ExpectedText);
         Assert.assertTrue(TextMatch, "Text is " + ActualText);
@@ -46,25 +46,21 @@ public class ContactForm {
 
     public void ClickContactUs() throws InterruptedException {
         this.Click("//*[@id=\"contact-link\"]/a");
-        this.AssertTitle("Contact us - My Store");
-        System.out.println("System navigated to Contact page");
     }
 
-    public void FillInContactForm() throws InterruptedException, IOException {
+    public void FillInContactForm(String Email, String Subject, String Order, String Path, String Message) throws InterruptedException, IOException {
         Select SubjectHeadline = new Select(driver.findElement(By.id("id_contact")));
-        SubjectHeadline.selectByValue("2");
-        driver.findElement(By.id("email")).sendKeys("paulajofre91@gmail.com");
-        driver.findElement(By.id("id_order")).sendKeys("123");
-        driver.findElement(By.xpath("//*[@id=\"fileUpload\"]")).sendKeys("C:\\Users\\Franco\\Downloads\\badpundog.png");
-        driver.findElement(By.xpath("//*[@id=\"message\"]")).sendKeys("Testing123");
+        SubjectHeadline.selectByVisibleText(Subject);
+        driver.findElement(By.id("email")).sendKeys(Email);
+        Select OrderReference = new Select(driver.findElement(By.name("id_order")));
+        OrderReference.selectByVisibleText(Order);
+        driver.findElement(By.xpath("//*[@id=\"fileUpload\"]")).sendKeys(Path);
+        driver.findElement(By.xpath("//*[@id=\"message\"]")).sendKeys(Message);
         this.Click("//*[@id=\"submitMessage\"]/span");
     }
 
     public void SuccessMessage(){
-        this.AssertTitle("Contact us - My Store");
         driver.findElement(By.xpath("//*[@id=\"center_column\"]/p")).isDisplayed();
         System.out.println("Success message is displayed");
-        this.AssertText("Your message has been successfully sent to our team.", "//*[@id=\"center_column\"]/p");
-        System.out.println("The text on the message is correct.");
     }
 }

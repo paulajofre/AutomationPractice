@@ -14,7 +14,7 @@ public class RecoverPassword {
         this.driver.get("http://automationpractice.com/");
     }
 
-    public boolean AssertTitle(String ExpectedTitle){
+    public boolean GetTitle(String ExpectedTitle){
         String ActualTitle = driver.getTitle();
         boolean TextMatch = ActualTitle.equals(ExpectedTitle);
         Assert.assertTrue(TextMatch, "Title is incorrect.");
@@ -22,7 +22,7 @@ public class RecoverPassword {
         return true;
     }
 
-    public boolean AssertText(String Xpath, String ExpectedText){
+    public boolean GetText(String Xpath, String ExpectedText){
         String ActualText = driver.findElement(By.xpath(Xpath)).getText();
         boolean TextMatch = ActualText.contains(ExpectedText);
         Assert.assertTrue(TextMatch, "Title is incorrect.");
@@ -43,7 +43,6 @@ public class RecoverPassword {
 
     public void NavigateToSignIn() throws InterruptedException {
         this.Click("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a");
-        this.AssertTitle("Login - My Store");
     }
 
     public void ClickRetrievePassword() throws InterruptedException {
@@ -52,7 +51,6 @@ public class RecoverPassword {
 
     public void ClickRecoverPassword() throws InterruptedException {
         this.Click("//*[@id=\"login_form\"]/div/p[1]/a");
-        this.AssertTitle("Forgot your password - My Store");
     }
 
     public void EmailField(String Email){
@@ -62,12 +60,9 @@ public class RecoverPassword {
     public void SuccessMessage() {
         driver.findElement(By.xpath("//*[@id=\"center_column\"]/div/p")).isDisplayed();
         System.out.println("The successfully sent message is displayed");
-        this.AssertText("//*[@id=\"center_column\"]/div/p", "A confirmation email has been sent to your address:");
-        System.out.println("The text on the successful message is correct.");
     }
 
     public void BackToLogIn() throws InterruptedException {
         this.Click("//*[@id=\"center_column\"]/ul/li/a/span");
-        this.AssertTitle("Login - My Store");
     }
 }

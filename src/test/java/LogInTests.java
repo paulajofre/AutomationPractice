@@ -1,6 +1,7 @@
 import AutomationPractice.LogIn;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LogInTests {
@@ -16,6 +17,7 @@ public class LogInTests {
     LogIn page = new LogIn(this.driver);
     page.Navigate();
     page.NavigateToSignIn();
+    Assert.assertTrue(page.GetTitle("Login - My Store"));
     page.FillInFields("paulajofre91@gmail.com", "Password1!");
     page.ClickSignIn();
     }

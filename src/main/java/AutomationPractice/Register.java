@@ -18,14 +18,14 @@ public class Register {
         this.driver.get("http://automationpractice.com/");
     }
 
-    public void AssertTitle(String ExpectedTitle){
+    public void GetTitle(String ExpectedTitle){
         String ActualTitle = driver.getTitle();
         boolean TextMatch = ActualTitle.equals(ExpectedTitle);
         Assert.assertTrue(TextMatch, "Title is incorrect.");
         System.out.println("Title is: " + ActualTitle);
     }
 
-    public void AssertText(String TextXpath, String ExpectedText) {
+    public void GetText(String TextXpath, String ExpectedText) {
         String ActualText = driver.findElement(By.xpath(TextXpath)).getText();
         boolean TitlesMatch = ActualText.equals(ExpectedText);
         Assert.assertTrue(TitlesMatch, "Titles is not expected");
@@ -46,10 +46,6 @@ public class Register {
         this.Click("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a");
     }
 
-    public void VerifyTitleRegister(){
-        this.AssertTitle("Login - My Store");
-    }
-
     public void CreateAccount(){
         driver.findElement(By.xpath("//*[@id=\"email_create\"]")).sendKeys("testpaula3@testpaula.com");
         this.AssertButtonIsEnabled("//*[@id=\"SubmitCreate\"]");
@@ -59,7 +55,7 @@ public class Register {
     public void RegisterForm(String FirstName, String LastName, String Password, String Day, String Month, String Year, String Company, String Address, String City, String State, String PostalCode, String Phone) throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
-        this.AssertText("//*[@id=\"noSlide\"]/h1", "CREATE AN ACCOUNT");
+        this.GetText("//*[@id=\"noSlide\"]/h1", "CREATE AN ACCOUNT");
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"uniform-id_gender2\"]")).click();
         driver.findElement(By.id("customer_firstname")).sendKeys(FirstName);
@@ -85,6 +81,5 @@ public class Register {
         driver.findElement(By.id("phone")).sendKeys(Phone);
         this.Click("//*[@id=\"submitAccount\"]");
         Thread.sleep(3000);
-        this.AssertTitle("My account - My Store");
     }
 }

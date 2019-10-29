@@ -14,7 +14,7 @@ public class LogIn {
         this.driver.get("http://automationpractice.com/");
     }
 
-    public boolean AssertTitle(String ExpectedTitle){
+    public boolean GetTitle(String ExpectedTitle){
         String ActualTitle = driver.getTitle();
         boolean TextMatch = ActualTitle.equals(ExpectedTitle);
         Assert.assertTrue(TextMatch, "Title is incorrect.");
@@ -35,8 +35,6 @@ public class LogIn {
 
     public void NavigateToSignIn() throws InterruptedException {
         this.Click("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a");
-        this.AssertTitle("Login - My Store");
-        System.out.println("Title is correct");
     }
 
     public void FillInFields(String Email, String Password){
@@ -46,7 +44,7 @@ public class LogIn {
 
     public void ClickSignIn() throws InterruptedException {
         this.Click("//*[@id=\"SubmitLogin\"]");
-        boolean LogIn = AssertTitle("My account - My Store");
+        boolean LogIn = GetTitle("My account - My Store");
         if (LogIn){
             System.out.println("Successful login");
         }
