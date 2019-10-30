@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0693f64d-f408-424f-aba0-f3e237d883fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Paula.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/BuyDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationPractice/BuyDress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/ContactForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationPractice/ContactForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationPractice/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/RecoverPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationPractice/RecoverPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationPractice/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BuyDressTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuyDressTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ContactFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContactFormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LogInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogInTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RecoverPasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RecoverPasswordTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/BuyDress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/BuyDress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AutomationPractice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/ContactForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/ContactForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/RecoverPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/RecoverPassword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BuyDressTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BuyDressTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/AutomationPractice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ContactFormTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContactFormTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LogInTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RecoverPasswordTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RecoverPasswordTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RegisterTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,7 @@
   </component>
   <component name="ProjectId" id="1RcZgegpqkolJc7jhAmfrtepOi1" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -108,12 +110,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecoverPasswordTests.Testing" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RecoverPasswordTests" />
-      <option name="METHOD_NAME" value="Testing" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="RegisterTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -123,10 +124,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.BuyDressTests" />
+        <item itemvalue="TestNG.RegisterTests" />
         <item itemvalue="TestNG.BuyDressTests.Testing" />
         <item itemvalue="TestNG.ContactFormTests.Testing" />
         <item itemvalue="TestNG.ContactFormTests" />
-        <item itemvalue="TestNG.RecoverPasswordTests.Testing" />
       </list>
     </recent_temporary>
   </component>

@@ -5,7 +5,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.util.zip.Adler32;
 
 public class BuyDressTests {
     public WebDriver driver;
@@ -27,7 +26,8 @@ public class BuyDressTests {
         page.ClickMore();
         Assert.assertTrue(page.GetTitle("Printed Dress - My Store"));
         Assert.assertTrue(page.GetText("Printed evening dress with straight sleeves", "//*[@id=\"short_description_content\"]/p"));
-        page.SelectAmount(3);
+        page.SelectAmount(2);
+        Thread.sleep(2000);
         page.SelectSize("M");
         page.SelectColor();
         page.ClickAddToCart();

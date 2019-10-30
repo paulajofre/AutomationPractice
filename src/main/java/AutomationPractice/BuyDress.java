@@ -64,14 +64,15 @@ public class BuyDress {
         this.Click("//*[@id=\"center_column\"]/ul/li/div/div[2]/div[2]/a[2]");
     }
 
-    public void SelectAmount(Integer Amount){
+    public void SelectAmount(Integer Amount) throws InterruptedException {
         driver.findElement(By.xpath("//*[@id=\"quantity_wanted\"]")).clear();
-        driver.findElement(By.xpath("//*[@id=\"quantity_wanted\"]")).sendKeys("Amount");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"quantity_wanted\"]")).sendKeys(Amount.toString());
     }
 
     public void SelectSize(String Size){
-        Select size = new Select(driver.findElement(By.xpath("//*[@id=\"group_1\"]")));
-        size.selectByVisibleText("Size");
+        Select size = new Select(driver.findElement(By.name("group_1")));
+        size.selectByVisibleText(Size);
     }
 
     public void SelectColor() throws InterruptedException {

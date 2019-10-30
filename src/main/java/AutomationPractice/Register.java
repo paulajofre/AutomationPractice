@@ -3,7 +3,6 @@ package AutomationPractice;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
@@ -18,11 +17,12 @@ public class Register {
         this.driver.get("http://automationpractice.com/");
     }
 
-    public void GetTitle(String ExpectedTitle){
+    public boolean GetTitle(String ExpectedTitle){
         String ActualTitle = driver.getTitle();
         boolean TextMatch = ActualTitle.equals(ExpectedTitle);
         Assert.assertTrue(TextMatch, "Title is incorrect.");
         System.out.println("Title is: " + ActualTitle);
+        return true;
     }
 
     public void GetText(String TextXpath, String ExpectedText) {
