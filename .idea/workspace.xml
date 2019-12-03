@@ -2,22 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0693f64d-f408-424f-aba0-f3e237d883fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Paula.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dsn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gimap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/imap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/itext_2_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/itext_2_1_71.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mail_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mailapi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/pop3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/smtp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutomationPractice.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CrossBrowser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/driverFactory/BrowserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/driverFactory/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/AddressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/ContactFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/ContactFormSubmittedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/DressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/EveningDressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/OrderConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/OrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/PaymentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/PrintedDressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/RecoverPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/RecoverPasswordSuccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/RegisterFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/ShippingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages/SuccessBuyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/tests/BuyDressTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/tests/ContactUsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/tests/LogInTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/tests/RecoverPasswordTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/tests/RegisterUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/AddressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/ContactFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/ContactFormSubmittedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/DressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/EveningDressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/OrderConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/OrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/PaymentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/PrintedDressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/RecoverPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/RecoverPasswordSuccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/RegisterFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/ShippingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/pages/SuccessBuyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/tests/BuyDressTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/tests/ContactUsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/tests/LogInTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/tests/RecoverPasswordTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/pom/tests/RegisterUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/reports/listeners/RealTimeReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/reports/reports/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/reports/reports/JyperionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/video/specializedScreenRecorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automtionPractice/video/videoRecorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/screenRecorded02-12-2019 18.avi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/BuyDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationPractice/BuyDress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationPractice/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BuyDressTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuyDressTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/BuyDress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/BuyDress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/ContactForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/ContactForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/LogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/RecoverPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/RecoverPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationPractice/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BuyDressTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BuyDressTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ContactFormTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContactFormTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LogInTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RecoverPasswordTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RecoverPasswordTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RegisterTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/BuyDress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/ContactForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/LogIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/RecoverPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationPractice/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BuyDressTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ContactFormTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogInTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RecoverPasswordTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegisterTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/BuyDress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/ContactForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/LogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/RecoverPassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationPractice/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BuyDressTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ContactFormTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HomePageTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RecoverPasswordTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RegisterTests.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +101,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -43,13 +123,38 @@
     </option>
   </component>
   <component name="ProjectId" id="1RcZgegpqkolJc7jhAmfrtepOi1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/automtionPractice/pageFactory/pages" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2045977" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="AutomationPractice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Franco\Downloads\Testing\Projects\AutomationPractice\src\test\java\automtionPractice\pageFactory\pages" />
+      <recent name="C:\Users\Franco\Downloads\Testing\Projects\AutomationPractice\src\test\java\automtionPractice\pageFactory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="automtionPractice.pageFactory.tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Franco\Downloads\Testing\Projects\AutomationPractice\src\main\java" />
+      <recent name="C:\Users\Franco\Downloads\Testing\Projects\AutomationPractice\src\main" />
+      <recent name="C:\Users\Franco\Downloads\Testing\Projects\AutomationPractice\src" />
+      <recent name="C:\Users\Franco\Downloads\Testing\Projects\AutomationPractice\src\test\java" />
+      <recent name="C:\Users\Franco\Downloads\Testing\Projects\AutomationPractice\src\test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,11 +168,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BuyDressTests">
+  <component name="RunManager" selected="TestNG.LogInTests (1)">
     <configuration name="BuyDressTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BuyDressTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automtionPractice.pageFactory.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automtionPractice.pageFactory.tests" />
+      <option name="MAIN_CLASS_NAME" value="automtionPractice.pageFactory.tests.BuyDressTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -75,22 +186,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuyDressTests.Testing" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BuyDressTests" />
-      <option name="METHOD_NAME" value="Testing" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactFormTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ContactFormTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automtionPractice.pom.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automtionPractice.pom.tests" />
+      <option name="MAIN_CLASS_NAME" value="automtionPractice.pom.tests.ContactUsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -98,22 +203,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactFormTests.Testing" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ContactFormTests" />
-      <option name="METHOD_NAME" value="Testing" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automtionPractice.pom.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automtionPractice.pom.tests" />
+      <option name="MAIN_CLASS_NAME" value="automtionPractice.pom.tests.LogInTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegisterTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automtionPractice.pageFactory.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automtionPractice.pageFactory.tests" />
+      <option name="MAIN_CLASS_NAME" value="automtionPractice.pageFactory.tests.LogInTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecoverPasswordTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automtionPractice.pageFactory.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automtionPractice.pageFactory.tests" />
+      <option name="MAIN_CLASS_NAME" value="automtionPractice.pageFactory.tests.RecoverPasswordTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -123,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LogInTests (1)" />
+        <item itemvalue="TestNG.LogInTests" />
+        <item itemvalue="TestNG.RecoverPasswordTests" />
+        <item itemvalue="TestNG.ContactUsTest" />
         <item itemvalue="TestNG.BuyDressTests" />
-        <item itemvalue="TestNG.RegisterTests" />
-        <item itemvalue="TestNG.BuyDressTests.Testing" />
-        <item itemvalue="TestNG.ContactFormTests.Testing" />
-        <item itemvalue="TestNG.ContactFormTests" />
       </list>
     </recent_temporary>
   </component>
@@ -156,5 +289,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
